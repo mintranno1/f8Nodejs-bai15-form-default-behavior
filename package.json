@@ -1,0 +1,30 @@
+{
+  "name": "bai5-install-express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --inspect src/index.js",
+    "watch": "node-sass -w src/resources/scss/ -o src/public/css/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mintranno1/f8Nodejs-bai5-install-express.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mintranno1/f8Nodejs-bai5-install-express/issues"
+  },
+  "homepage": "https://github.com/mintranno1/f8Nodejs-bai5-install-express#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.3"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "node-sass": "^6.0.1",
+    "nodemon": "^2.0.12"
+  }
+}
